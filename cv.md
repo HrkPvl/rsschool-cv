@@ -2,7 +2,7 @@
 
 ## **Contact information**
 * **E-mail:** hrakovichpavel93@gmail.com
-* **Nickname on the discord server rs school:** Hrakovich Pavel (@HrkPvl) 
+* **Nickname on the rs school's discord server:** Hrakovich Pavel (@HrkPvl) 
 
 ## **About me**
 I am an energetic, purposeful, reliable, responsible and hardworking person. I don't have real work experience, but I'm a fast learner and really want to learn and develop new skills.
@@ -28,4 +28,4 @@ alert( result );
 
 ## **Languages**
 * Russian - Native
-* English - Intermediate(according to online test at [efset.org](https://www.efset.org/) )
+* English - Intermediate (according to online test at [efset.org](https://www.efset.org/) )
