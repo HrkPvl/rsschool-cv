@@ -1,6 +1,143 @@
+@font-face {
+    font-family: Inter;
+     src: url("assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    scroll-behavior: smooth; 
+}
 html, body {
-    font-family: Arial, serif;
-    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
+    font-family: Inter, Arial, serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #862d2d;
+}
+
+.header {
+    background-color: #707070;
+    width: 100%;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+.nav-link {
+    padding: 0 10px;
+    font-size: 20px;
+    line-height: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.4s;
+}
+  
+.nav-link:hover{
+    color: #862d2d;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border-bottom: 10px solid #707070;
+}
+
+.profile-title {
+    padding: 0;
+    padding-top: 50px;
+    text-align: center;
+    color: #707070;
+    font-size: 40px;
+}
+.section {
+    width: 50%;
+    padding: 10px 20px;
+}
+
+.section span {
+    color: #707070;
+}
+
+.background {
+    background-color: #f2f2f2;
+}
+
+.section-title{
+    padding: 0;
+    text-align: left;
+    font-weight: 600;
+    color: #707070;
+}
+
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
+.pre {
+    padding: 0;
+    margin: 0;
+}
+
+.avatar {
+    padding: 10px;
+    width: 250;
+    height: 250;
+    border-radius: 50%;
+}
+
+.item {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.item a {
+    text-decoration: none;
+    color: #707070;
+    transition: color 0.4s;
+}
+
+.item a:hover {
+    color: #862d2d;
+}
+
+.item span {
+    color: #707070
+}
+
+.footer {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100%;
+    background-color: #707070;
 }
